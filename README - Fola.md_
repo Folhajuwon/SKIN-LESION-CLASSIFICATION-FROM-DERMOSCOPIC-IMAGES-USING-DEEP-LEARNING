@@ -1,0 +1,54 @@
+# ISIIC Image Classification: Melanoma vs. Benign
+
+## Overview
+This Jupyter Notebook provides a simple implementation of an image classification system to distinguish between melanoma and benign skin lesions using a deep learning model. The model utilizes the **International Skin Imaging Collaboration (ISIC)** dataset.
+
+## Contents
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Results](#results)
+- [Contact](#contact)
+
+## Introduction
+Skin cancer detection is crucial for timely treatment and management. This notebook leverages a convolutional neural network (CNN) to classify skin lesions into melanoma (malignant) or benign categories. The ISIC dataset provides the dermoscopic images required for this task.
+
+## Dataset
+The dataset used in this project is sourced from the ISIC Archive, containing labeled images of melanoma and benign skin lesions. You can download the dataset from the [ISIC Archive](https://isic-archive.com/).
+
+## Prerequisites
+Ensure you have the following libraries installed:
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- tqdm
+
+Install the required packages using `pip`:
+```bash
+pip install tensorflow keras numpy pandas matplotlib scikit-learn tqdm
+```
+
+## Usage
+1. **Download and prepare the dataset**: Ensure the ISIC dataset is downloaded and structured in your directory.
+2. **Open the Jupyter Notebook**: Launch Jupyter Notebook and open the provided notebook file.
+3. **Run the notebook**: Execute the cells sequentially to:
+   - Load and preprocess the dataset
+   - Define the CNN model
+   - Train the model (with progress bars using `tqdm`)
+   - Evaluate the model
+   - Perform inference on new images
+
+## Results
+The notebook provides an evaluation of the model's performance, including metrics such as accuracy, precision, recall, and F1-score. Results are visualized using Matplotlib.
+
+## Contact
+For any questions or suggestions, please contact [Me](Habdulfolajuwon1@gmail.com).
+
+---
+
+This README provides a basic overview of the notebook and instructions for usage. Adjust the content as necessary to fit your specific implementation. The project repository can be found [here](https://github.com/Folhajuwon/SKIN-LESION-CLASSIFICATION-FROM-DERMOSCOPIC-IMAGES-USING-DEEP-LEARNING.git).
