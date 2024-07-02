@@ -1,7 +1,7 @@
 # ISIIC Image Classification: Melanoma vs. Benign
 
 ## Overview
-This Jupyter Notebook provides a simple implementation of an image classification system to distinguish between melanoma and benign skin lesions using a deep learning model. The model utilizes the **International Skin Imaging Collaboration (ISIC)** dataset.
+This Colab Notebook provides a simple implementation of an image classification system to distinguish between melanoma and benign skin lesions using a deep learning model. The model utilizes the **International Skin Imaging Collaboration (ISIC)** dataset.
 
 ## Contents
 - [Introduction](#introduction)
